@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fda7df;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+.nav ul li {
+  margin: 0 20px;
+}
+
+.heading {
+  background: #fea47f;
+  height: 50px;
+  width: 1350px;
+  margin: 20px;
+  position: absolute;
+  left: 27px;
+}
+
+h1 {
+  text-align: center;
+  padding: 7.5px;
+}
+
+.heading:hover {
+  background: #b33771;
+}
+
+.About {
+  background: #9b59b6;
+  margin: 20px;
+  position: absolute;
+  width: 600px;
+  top: 130px;
+  left: 27px;
+  padding: 30px;
+  text-align: center;
+  height: 171px;
+}
+
+.pic {
+  border-radius: 4%;
+  position: absolute;
+  top: 148px;
+  left: 800px;
+  width: 300px;
+  height: 90%;
+}
+
+.features {
+  background: #fc427b;
+  margin: 20px;
+  position: absolute;
+  width: 600px;
+
+  left: 27px;
+  top: 390px;
+  padding: 30px;
+  text-align: center;
+  height: 171px;
+}
+
+.fa-paint-brush {
+  position: absolute;
+  top: 700px;
+  left: 250px;
+}
+
+.fa-address-card {
+  position: absolute;
+  top: 700px;
+  left: 700px;
+}
+
+.fa-paw {
+  position: absolute;
+  top: 700px;
+  left: 1100px;
+}
+
+.ff {
+  font-size: 30px;
+}
+
+.shopnow {
+  background: #fea47f;
+  height: 150px;
+  width: 500px;
+  position: absolute;
+  top: 850px;
+  left: 470px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+}
+
+.shopnow:hover {
+  background: #b33771;
+}
+
+#email {
+  text-decoration: none;
+  color: black;
+}
+h1,
+h2 {
+  font-family: "Luckiest Guy", cursive;
+}
+p {
+  font-family: "Staatliches", cursive;
+}
